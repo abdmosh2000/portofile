@@ -8,7 +8,7 @@
     scroll-behavior: smooth;
 }
 header{
-    background-color: #f0f0f0;
+    background-color: #37306B;
     width: 100%;
     height: 60px;
     position: fixed;
@@ -20,22 +20,23 @@ header{
 }
 .logo{
     text-decoration: none;
-    color:  #3a6cf4 ;
+    color:  #D27685 ;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 1.6em;
 }
 .navigation a{
     text-decoration: none;
-    color: #3a6cf4;
+    color: #D27685;
     padding: 10px 10px;
     
     font-size: 1em;
     font-weight: 500;
 }
 .navigation a:hover{
-    color: #4303d9;
-    font-size: 1.1em;
+    color: #9E4784;
+    font-size: 1em;
+    transition: 0.5s;
 }
 section{
     padding: 100px 200px;
@@ -45,19 +46,19 @@ section{
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: url(img/images.jpg) no-repeat;
+    background: url(img/s1.png) no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     }
 .main h2{
-    color:white;
+    color:#D27685;
     font-size: 1.3em;
     font-weight: 500;
 }
 .main h2 span{
     display: inline;
-    color: #4e9eff;
+    color: #D27685;
     font-size: 3em;
     font-weight: 600;
     margin-top: 10px;
@@ -72,7 +73,7 @@ section{
 }
 .main-btn{
     color: white;
-    background-color: #3a6cf4;
+    background-color: #D27685;
     text-decoration: none;
     font-size: 1.1em;
     font-weight: 600;
@@ -84,18 +85,22 @@ section{
     transition: 0.7s ease;
 }
 .main-btn:hover{
-    background-color: #4303d9;
+    background-color: #37306B;
     transform: scale(1.1);
 }
 .social-icons a{
-    color: white;
+    color: #FEFCF3;
     font-size: 1.7em;
     padding-right: 30px;
+}
+.social-icons a:hover{
+    color: #37306B;
+    transition: 0.5s;
 }
 .title{
     display: flex;
     justify-content: center;
-    color: #3a6cf4;
+    color: #D27685;
     font-size: 2.2em;
     font-weight: 800;
     margin-bottom:30px;
@@ -108,7 +113,7 @@ section{
 }
 .card{
     background-color: white;
-    width: 21.25em;
+    width: 18em;
     box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
     border-radius: 10px;
     padding: 25px;
@@ -119,7 +124,7 @@ section{
     transform: scale(1.1);
 }
 .icon{
-    color: #3a6cf4;
+    color: #000;
     font-size: 8em;
     text-align: center;
 }
@@ -127,7 +132,7 @@ section{
     text-align: center;
 }
 .info h3{
-    color: #3a6cf4;
+    color: #D27685;
     font-size: 1.2em;
     font-weight: 700;
     margin: 10px;
@@ -140,7 +145,7 @@ section{
 }
 .project-card{
     background-color: #fff;
-    border: 1px solid white;
+    border: 1px solid #D27685;
     min-height: 14em;
     width: 20em;
     overflow: hidden;
@@ -191,7 +196,7 @@ section{
     font-size: 1.2em;
 }
 .footer{
-    background-color: #000016;
+    background-color: #37306B;
     color: #fff;
     padding: 1em;
     display: flex;

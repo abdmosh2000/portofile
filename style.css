@@ -7,6 +7,15 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
+#up{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: #601cfc;
+    padding: 10px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
 header{
     background-color: #37306B;
     width: 100%;
